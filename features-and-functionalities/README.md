@@ -411,33 +411,38 @@ This document outlines all the key features and functionalities that the Airbnb 
 
 ---
 
-## Documentation Note
+## Visual Diagram
 
-This comprehensive list of features should be visualized using Draw.io to create a feature diagram. The diagram should show:
+A comprehensive visual diagram has been created showing all features and their relationships:
+
+![Backend Features Diagram](backend_features_diagram.png)
+
+### Diagram Contents
+
+The diagram visualizes:
 
 1. **High-level architecture** with main feature categories
-2. **Relationships** between different features
-3. **User flows** for key operations (booking, payment, etc.)
-4. **Data flow** between components
-5. **External integrations** (payment gateways, storage, etc.)
+2. **Relationships** between different features (shown with arrows)
+3. **Feature modules** organized by:
+   - **Core Features** (Authentication, Property, Booking, Payment)
+   - **Secondary Features** (Reviews, Search, Messaging, Images)
+   - **Support Features** (Notifications, Admin, Additional, Security)
+4. **Technology stack** components
+5. **Color-coded modules** for easy identification
 
-The diagram can be organized by:
-- **User types** (Guest, Host, Admin)
-- **Feature modules** (Authentication, Property, Booking, Payment)
-- **System layers** (API, Business Logic, Database)
+### Diagram Details
 
----
-
-## Next Steps
-
-1. Create a visual diagram in Draw.io based on this documentation
-2. Export the diagram as PNG format
-3. Store the PNG file in this directory alongside this README
-4. Update this README with a reference to the diagram image
+The diagram shows:
+- **12 main feature modules** with their key sub-features
+- **Connections/relationships** between features
+- **Technology stack** recommendations
+- **Security features** as a foundational component
 
 ---
 
-**Last Updated**: [Date]
+**Last Updated**: October 29, 2024
 **Version**: 1.0
-**Status**: Documentation Complete - Diagram Pending
+**Status**: Documentation and Diagram Complete
+
+**Diagram Source**: Generated using Python with Matplotlib (script: `generate_diagram.py`)
 
